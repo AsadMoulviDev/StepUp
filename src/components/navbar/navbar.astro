@@ -1,5 +1,6 @@
 ---
 import Container from "@components/container.astro";
+import iconimage from "assets/appicon_svg.svg";
 ---
 
 <Container>
@@ -11,7 +12,7 @@ import Container from "@components/container.astro";
   <header class="flex flex-col lg:flex-row items-center justify-center my-5">
     <div class="flex items-center justify-center ">
       <a href="/" class="text-lg">
-        <img src="src/assets/appicon_svg.svg"/>
+        <img src={iconimage} />
       </a>
       <h2 class="text-4xl text-white lg:text-5xl font-bold lg:tracking-tight items-center">
         Step Up
